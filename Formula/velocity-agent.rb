@@ -7,18 +7,18 @@ class VelocityAgent < Formula
   on_macos do
     on_arm do
       url "https://github.com/Limestone-Digital-Agents/velocity-agent-dist/releases/download/v#{version}/velocity-agent-darwin-arm64"
-      sha256 "28b72612d873fa799bce003f270956623b3ebde97b7d47eb97f79b38ff3fcd28"
+      sha256 "e94d33c4dcba6aad745f0a9eee58b2256658407297f3d1d114fa88d35d39ac4c"
     end
     on_intel do
       url "https://github.com/Limestone-Digital-Agents/velocity-agent-dist/releases/download/v#{version}/velocity-agent-darwin-x64"
-      sha256 "43b0edb2aa965fbd66cd055b476c4d77fbf0affbb8a06c750789be3bf5849cd7"
+      sha256 "7ab119c551e8efbc5b604cd0b796eac7ce873f927a9881452b83b87579af0978"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Limestone-Digital-Agents/velocity-agent-dist/releases/download/v#{version}/velocity-agent-linux-x64"
-      sha256 "401787e127ad6234d067a8354d1fa6db5a7a4c4b44c8b341745e175a12e3577c"
+      sha256 "65cad173af8d04d3d8fbe243c393a1868794a671f25cd6f2eb8c4c3c455430e0"
     end
   end
 
