@@ -1,24 +1,24 @@
 class VelocityAgent < Formula
   desc "Polling agent that picks up tracker tickets and runs an AI coding agent on them"
   homepage "https://github.com/Limestone-Digital-AI-Tooling/velocity-agent"
-  version "3.10.0"
+  version "3.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Limestone-Digital-AI-Tooling/velocity-agent-dist/releases/download/v#{version}/velocity-agent-darwin-arm64"
-      sha256 "8f67f0861e6db5b77d4ea9aa063afde002e91f1b4c2df820b12e316a7a611cd4"
+      sha256 "ba465be4c569160670b4d0f8fa2c0ea065efdc61a369b0d8e9ba2a1ba05d6b7b"
     end
     on_intel do
       url "https://github.com/Limestone-Digital-AI-Tooling/velocity-agent-dist/releases/download/v#{version}/velocity-agent-darwin-x64"
-      sha256 "a5d4b5772886d822806696a35eada2a2cfa873839d2abe4c2dc3d2681f0b8f03"
+      sha256 "03de47d9c4993957e499eadfc86b7083e31639f592297654f355fb94bb7a3653"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Limestone-Digital-AI-Tooling/velocity-agent-dist/releases/download/v#{version}/velocity-agent-linux-x64"
-      sha256 "ba898f5f739bcc1d23b5ae03f7edf961fb63ef45540455b2065a65fa8cbbe4d0"
+      sha256 "f5e74b27b55abca36b75ea682d744e2db4d655ab4c1f4d1b9270592b257c8409"
     end
   end
 
